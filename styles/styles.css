@@ -1,0 +1,22 @@
+nav{
+    background-color: slateblue;
+    padding: 10px;
+ }
+nav a ¨{
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: slateblue;
+}
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid slateblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+P {
+    padding: 10px;
+}
