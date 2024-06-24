@@ -1,10 +1,10 @@
-@import url(´https://fonts.google.com/share?selection.family=Playwrite+NZ:wght@100..400|Playwrite+US+Trad:wght@100..400´);
+@import url(´https://fonts.google.com/share?selection.fahttps://fonts.google.com/share?selection.family=Oswald:wght@200..700|Playwrite+MX:wght@100..400mily=Playwrite+NZ:wght@100..400|Playwrite+US+Trad:wght@100..400´);
 body{
     font-family: (var--paragraft font);
     max-width: 960px;
     padding: 20px;
 }
-:-main{
+main          {
     --primary-color: #718481;
     --secondary-color: #6D868A;
     --accent1-color: #698792;
@@ -52,9 +52,3 @@ nav a:hover{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-
-
-
-
-
