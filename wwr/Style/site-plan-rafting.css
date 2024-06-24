@@ -19,7 +19,7 @@ body{
     --nav-hover-background-color: #5DA399;
 }
 body{
-    font-family: var(--paragraph-font=italic,normal,normal);
+    font-family:"italic,normal,normal";
     max-width: 960px;
     padding: 20px;
 }
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header{
     padding: 20px;
-    background-color: var(--accent1-color=brown);
+    background-color:brown;
 }
 p{
     padding: 25px;
@@ -45,12 +45,12 @@ nav a{
     text-decoration: italic;
     padding: 1rem;
 }
-nav a:link , nav a:visited{
-    color: var(--nav-link-color=cornsilk);
+nav a:link , nav a:visited {
+    color:cornsilk;
 }
 nav a:hover{
-    color: var(--nav-hover-link-color=darkgreen);
-    background-color: var(--nav-hover-background-color=lightgreen);
+    color:darkgreen;
+    background-color:lightgreen;
 }
 main{
     max-width: 840px;
