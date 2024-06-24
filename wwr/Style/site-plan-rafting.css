@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+NZ:wght@100..400&display=swap');
 body{
-    font-family: (var--paragraft font);
+    font-family: (Playwrite GB S);
     max-width: 960px;
     padding: 20px;
 }
@@ -19,12 +19,12 @@ body{
     --nav-hover-background-color: #5DA399;
 }
 body{
-    font-family: var(--paragraph-font='Times New Roman', Times, serif);
+    font-family: var(--paragraph-font=italic,normal,normal);
     max-width: 960px;
     padding: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: var(--heading-font)'Playwrite GB S';
     color: var(--primary-color=#5DA399)
 }
 header{
@@ -52,26 +52,26 @@ nav a:hover{
     color: var(--nav-hover-link-color=darkgreen);
     background-color: var(--nav-hover-background-color=lightgreen);
 }
-@font-face {
+font-face {
     font-family: 'Playwrite GB S';
     font-style: italic;
     font-weight: 100 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWU_kFkk-s1Xclhmlemy7jsNS51Znk.woff2) format('woff2');
-  }
+}
   /* fallback */
-  @font-face {
+font-face {
     font-family: 'Playwrite GB S';
     font-style: normal;
     font-weight: 100 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWW_kFkk-s1Xclhmlemy7jsNR5y.woff2) format('woff2');
-  }
+}
   /* fallback */
-  @font-face {
+font-face {
     font-family: 'Playwrite NZ';
     font-style: normal;
     font-weight: 100 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/playwritenz/v4/d6lPkaOxRsyr_zZDmUYvh2TM0g.woff2) format('woff2');
-  }
+}
