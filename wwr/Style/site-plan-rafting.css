@@ -4,7 +4,7 @@ body{
     max-width: 960px;
     padding: 20px;
 }
-main          {
+:root{
     --primary-color: #718481;
     --secondary-color: #6D868A;
     --accent1-color: #698792;
