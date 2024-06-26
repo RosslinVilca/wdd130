@@ -1,7 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 1rem;
+    padding: 2px;
+    box-sizing: border-box 3px; 
 }
 nav{
     background-color: slateblue;
@@ -35,18 +35,18 @@ aside {
     padding: 1rem;
     background-color:#eee;
     color: #333;
-    text-align: center;
+    text-align: right;
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: center;
 }
 main img {
     width: 150px;
     height: auto;    
 }
 p {
-    padding: 0;
+    padding: 2px;
 }
 footer {
     margin-top: 15px;
@@ -56,23 +56,23 @@ footer {
 /* class selector */
 .bog{
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0,.1);
+    border: 1px solid rgba(219, 24, 24, 0.1);
     padding: 1rem;
-    background-color: #ddd;
-    color: #000;
+    background-color: #636363;
+    color: #555;
 }
 aside{
     width: 20em;
-    text-align: center;   
+    text-align: right;   
 }
 main img{
     /*you most likely will have other declarations here */
     float: right;
 }
 aside h2{
-    position: absolute;
-    top: 50px;
-    left: 150px;
+    position: left;
+    top: 40px;
+    left: 130px;
 }
 
 
