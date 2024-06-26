@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing:border-box; 
 }
 nav{
     background-color: slateblue;
@@ -73,7 +73,7 @@ main img{
     position: relative;
 }
 aside h2{
-    position: absolute;
+    position:absolute;
     top: 40px;
     left: 130px;
 }
