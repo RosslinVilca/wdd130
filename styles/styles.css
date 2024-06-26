@@ -53,8 +53,9 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* class selector */
-.bog{
+.box{
     margin: 1rem;
     border: 1px solid rgba(219, 24, 24, 0.1);
     padding: 1rem;
@@ -62,17 +63,19 @@ footer {
     color: #555;
 }
 aside{
-    width: 20em;
-    text-align: right;   
+    width: 40em;
+    text-align: center;   
 }
 main img{
     /*you most likely will have other declarations here */
     float: right;
+    position: relative;
 }
 aside h2{
     position: left;
     top: 40px;
-    left: 130px;
+    left: 30px;
 }
+
 
 
