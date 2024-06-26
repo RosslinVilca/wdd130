@@ -1,7 +1,7 @@
 *{
-    margin: 1rem;
-    padding: 2px;
-    box-sizing: border-box 3px; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 nav{
     background-color: slateblue;
@@ -64,7 +64,8 @@ footer {
 }
 aside{
     width: 40em;
-    text-align: center;   
+    text-align: center; 
+    position: relative;  
 }
 main img{
     /*you most likely will have other declarations here */
@@ -72,9 +73,9 @@ main img{
     position: relative;
 }
 aside h2{
-    position: left;
+    position: absolute;
     top: 40px;
-    left: 30px;
+    left: 130px;
 }
 
 
