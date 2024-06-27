@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+NZ:wght@100..400&display=swap");
+body{
+    font-family:"Playwrite GB S";
+    max-width: 960px;
+    padding: 20px;
+}
+:root{
+    --primary-color: #xxxxxx;
+    --secondary-color: #xxxxxx;
+    --accent1-color: #xxxxxx;
+    --accent2-color: #xxxxxx;
+
+    --heading-font:"______", serif;
+    --paragraph-font: "______", serif;
+
+    --nav-background-color: #xxxxxx;
+    --nav-link-color: #xxxxxx;
+    --nav-hoder-link-color: #xxxxxx;
+    --nav-hover-background-color: #xxxxxx;
+}
+body{
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:var(--heading-font);
+    color:var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color:var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link ,nav a:visited {
+    color:var(--nav-link-color);
+}
+nav a:hover{
+    color:var(--nav-hoder-link-color);
+    background-color:var(--nav-hover-background-color);
+}
+main{
+    max-width: 840px;
+}
+font-face {
+    font-family: 'Playwrite GB S';
+    font-style: italic;
+    font-weight: 100 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWU_kFkk-s1Xclhmlemy7jsNS51Znk.woff2) format('woff2');
+}
+ 
+::after {
+    font-family: 'Playwrite GB S';
+    font-style: normal;
+    font-weight: 100 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWW_kFkk-s1Xclhmlemy7jsNR5y.woff2) format('woff2');
+}
+ 
+font-face {
+    font-family: 'Playwrite NZ';
+    font-style: normal;
+    font-weight: 100 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playwritenz/v4/d6lPkaOxRsyr_zZDmUYvh2TM0g.woff2) format('woff2');
+}
