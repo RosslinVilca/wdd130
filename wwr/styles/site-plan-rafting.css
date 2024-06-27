@@ -5,18 +5,18 @@ body{
     padding: 20px;
 }
 :root{
-    --primary-color: #xxxxxx;
-    --secondary-color: #xxxxxx;
-    --accent1-color: #xxxxxx;
-    --accent2-color: #xxxxxx;
+    --primary-color: #345464;
+    --secondary-color: #123a47;
+    --accent1-color: #316379;
+    --accent2-color: #3d3232;
 
-    --heading-font:"______", serif;
-    --paragraph-font: "______", serif;
+    --heading-font:"Playwrite GB S", serif;
+    --paragraph-font: "italic", serif;
 
-    --nav-background-color: #xxxxxx;
-    --nav-link-color: #xxxxxx;
-    --nav-hoder-link-color: #xxxxxx;
-    --nav-hover-background-color: #xxxxxx;
+    --nav-background-color: #364643;
+    --nav-link-color: #248657;
+    --nav-hoder-link-color: #147914;
+    --nav-hover-background-color: #134713;
 }
 body{
     font-family:var(--paragraph-font);
