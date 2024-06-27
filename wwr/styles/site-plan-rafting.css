@@ -8,14 +8,14 @@ body{
     --primary-color: #345464;
     --secondary-color: #123a47;
     --accent1-color: #316379;
-    --accent2-color: #3d3232;
+    --accent2-color: #294451;
 
     --heading-font:"Playwrite GB S", serif;
     --paragraph-font: "italic", serif;
 
     --nav-background-color: #364643;
     --nav-link-color: #248657;
-    --nav-hoder-link-color: #147914;
+    --nav-hover-link-color: #147914;
     --nav-hover-background-color: #134713;
 }
 body{
@@ -45,11 +45,11 @@ nav a{
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link ,nav a:visited {
+nav a:link,nav a:visited {
     color:var(--nav-link-color);
 }
 nav a:hover{
-    color:var(--nav-hoder-link-color);
+    color:var(--nav-hover-link-color);
     background-color:var(--nav-hover-background-color);
 }
 main{
