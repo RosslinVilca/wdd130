@@ -35,18 +35,18 @@ aside {
     padding: 1rem;
     background-color:#eee;
     color: #333;
-    text-align: right;
+    text-align: relative;
 }
 aside img {
     width: 200px;
-    height: center;
+    height: auto;
 }
 main img {
     width: 150px;
     height: auto;    
 }
 p {
-    padding: 2px;
+    padding: 0;
 }
 footer {
     margin-top: 15px;
@@ -54,7 +54,7 @@ footer {
     text-align: center;
 }
 
-/* class selector */
+/* Class Selectors */
 .box{
     margin: 1rem;
     border: 1px solid rgba(219, 24, 24, 0.1);
