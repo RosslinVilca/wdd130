@@ -55,26 +55,3 @@ nav a:hover{
 main{
     max-width: 840px;
 }
-font-face {
-    font-family: 'Playwrite GB S';
-    font-style: italic;
-    font-weight: 100 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWU_kFkk-s1Xclhmlemy7jsNS51Znk.woff2) format('woff2');
-}
- 
-::after {
-    font-family: 'Playwrite GB S';
-    font-style: normal;
-    font-weight: 100 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playwritegbs/v5/oPWW_kFkk-s1Xclhmlemy7jsNR5y.woff2) format('woff2');
-}
- 
-font-face {
-    font-family: 'Playwrite NZ';
-    font-style: normal;
-    font-weight: 100 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/playwritenz/v4/d6lPkaOxRsyr_zZDmUYvh2TM0g.woff2) format('woff2');
-}
