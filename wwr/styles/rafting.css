@@ -1,39 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+NZ:wght@100..400&display=swap");
 :root{
-    --primary-color:#345464;
-    --secondary-color:#123a47;
-    --accent1-color:#316379;
-    --accent2-color:#294451;
+    --primary-color:#f07474;
+    --secondary-color:#ffffff;
+    --accent1-color:#ffffff;
+    --accent2-color:#ffffff;
 
     --heading-font:"Playwrite GB S", serif;
     --paragraph-font:"italic", serif;
 
-    --nav-background-color:#364643;
+    --nav-background-color:#ffffff;
     --nav-link-color:#248657;
     --nav-hover-link-color:#147914;
     --nav-hover-background-color:#134713;
 }
-h1, h2 {
+body{
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2{
     font-family:var(--heading-font);
     color:var(--primary-color);
 }
-h1{
-    position: absolute;
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
 }
-article{
-    position: absolute;
+p{
+    padding: 25px;
 }
-div{
-    position: relative;
+nav{
+    background-color:var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
 }
-.hero img{
+nav a{
     display: block;
-    width: 100%;
-    height: auto;
-    
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
 }
-img{
-    float: right;
+nav a:link,nav a:visited {
+    color:var(--nav-link-color);
 }
+nav a:hover{
+    color:var(--nav-hover-link-color);
+    background-color:var(--nav-hover-background-color);
+}
+main{
+    max-width: 400px;
+}
+.imagen-1{
+    width: 800px;
+    height: 500px;
+}
+.imagen-2{
+    width: 200px;
+    height: 200px;
+    margin-top: -250px;
+    margin-left: 500px;
+}
+.hero{
+    background-position: center center;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #f07474;
 
-
+}
