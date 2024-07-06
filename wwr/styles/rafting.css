@@ -1,24 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+NZ:wght@100..400&display=swap");
 :root{
-    --primary-color:#f07474;
-    --secondary-color:#ffffff;
+    --primary-color:#000000;
+    --secondary-color:#f58b8b;
     --accent1-color:#ffffff;
     --accent2-color:#ffffff;
 
     --heading-font:"Playwrite GB S", serif;
     --paragraph-font:"italic", serif;
 
-    --nav-background-color:#ffffff;
-    --nav-link-color:#248657;
-    --nav-hover-link-color:#147914;
-    --nav-hover-background-color:#134713;
+    --nav-background-color:#affcf2;
+    --nav-link-color:#000000;
+    --nav-hover-link-color:#cdfacd;
+    --nav-hover-background-color:#02332c;
 }
 body{
     font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-h1, h2{
+h2{
     font-family:var(--heading-font);
     color:var(--primary-color);
 }
@@ -33,12 +33,13 @@ nav{
     background-color:var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    position: left;
 }
 nav a{
     display: block;
     color:var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem;  
 }
 nav a:link,nav a:visited {
     color:var(--nav-link-color);
@@ -50,22 +51,78 @@ nav a:hover{
 main{
     max-width: 400px;
 }
-.imagen-1{
-    width: 800px;
-    height: 500px;
+.hero h1{
+   position: left;
+   top: 50%;
+   left:50%;
+   transform: translate(70%,-900%);
+   color: #ffffff;
 }
 .imagen-2{
-    width: 200px;
-    height: 200px;
-    margin-top: -250px;
-    margin-left: 500px;
+    position: left;
+   top: 50%;
+   left:50%;
+   transform: translate(180%,40%);
 }
-.hero{
-    background-position: center center;
-    background-image: url(img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #f07474;
+.imagen-1{
+    margin-top: -450px;
+    
+}
+.hero p{
+    position: left;
+    top: 50%;
+    left:50%;
+    transform: translate(40%,-120%);
+    color:#ffffff
+}
+.images2{
+    position: right;
+}
+img{
+    position: right;
+}
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
 
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
 }
