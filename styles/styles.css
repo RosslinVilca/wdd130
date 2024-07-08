@@ -11,16 +11,16 @@ nav{
     align-items: center;
  }
 nav a {
-    color: #fff;
+    color: #ffffff;
     padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
     
 }
-h1 {
+h1{
     color: slateblue;
-    border: 1px solid #b75df3;
+    border: 1px block #b75df3;
 }
 img {
     width: 150px;
@@ -64,10 +64,10 @@ footer {
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solid rgba(219, 24, 24, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
-    background-color: #ffffff;
-    color: #5f2b2b;
+    background-color: #c4c4c4;
+    color: #000000;
 }
 aside{
     width: 40em;
@@ -91,8 +91,9 @@ header,footer{
 .grid{
     grid-column: 2/3;
     margin: 1rem;   
-    display: grid;
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
  }
 main{
     display: grid;
